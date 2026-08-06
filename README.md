@@ -17,26 +17,7 @@ Secure Authentication
 Error Handling
 Environment Configuration
 Scalable Project Structure
-
-🏗 Architecture
-                Client
-                   │
-                   ▼
-             API Gateway
-                   │
- ┌─────────────────┼──────────────────┐
- │                 │                  │
- ▼                 ▼                  ▼
-Auth Service   Product Service   Order Service
-                   │                  │
-                   ▼                  ▼
-             Payment Service     AI Buddy Service
-                   │
-                   ▼
-                MongoDB
-
 Each service works independently and communicates through APIs or message queues when required.
-
 🛠 Tech Stack
 Backend
 Node.js
